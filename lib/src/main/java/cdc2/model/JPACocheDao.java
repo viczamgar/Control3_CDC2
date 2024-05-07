@@ -60,7 +60,7 @@ public class JPACocheDao implements Dao<Coche>{
 	@Override
 	public void saveAll(Coche [] t) {
 		
-		for(int i = 1; i < t.length; i++)
+		for(int i = 0; i < t.length; i++)
 			this.concesionario.add(t[i]);
 		
 	}
